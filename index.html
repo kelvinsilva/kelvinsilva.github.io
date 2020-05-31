@@ -1,37 +1,23 @@
 ---
-layout: default
-title: Home
+layout: page
+title: About
+permalink: /about/
 ---
+### Introduction
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+I'm a computer systems engineer interested in robotics and computer science/engineering. I have been playing with computers since I was a small child. In 2011 I started my career by reading Stephen Prata's C++ Primer Plus 5th edition, and starting my college years in Computer Science and Engineering in 2013. 
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+Aside from that, I love to go to the gym, as well as learning MMA and Kickboxing.
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+### Activity
+
+Previously a Full Time Software Engineer for Collins Aerospace (formerly Rockwell Collins). Located in Cedar Rapids, IA.
+
+I worked on the legacy Airborne GPS Receivers from Collins Aerospace. The product line dates back to the 1990's and it's been an interesting experience. I work with a lot of legacy code that was translated from Jovial to C. My work dealt with implementing new features within this legacy codebase, and understanding legacy designs to fix newly discovered bugs. 
+
+The GPS Embedded Module VII-2 is one of the main products which I was writing software for. The GEMVII-2 project is a project meant to take the latest product in the GEM product line (GEM VII) and update it to be backwards compatible with the original GEM II receiver that was built in the early 90's.
+
+### Contact me
+
+[kelvinsilva747@gmail.com](mailto:kelvinsilva747@gmail.com)
