@@ -10,7 +10,7 @@ title:            Kelvin Silva
 tagline:          'Software and Systems Engineer'
 description:      'Software and Systems Engineer'
 url:              http://kelvinsilva.com
-baseurl:          ""
+baseurl:          "/"
 
 author:
   name:           'Kelvin C. Silva'
